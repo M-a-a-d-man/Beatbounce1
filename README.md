@@ -1,5 +1,5 @@
 # BeatBounce - ConUHacks VII Project
-## Created by Vinisha Manek, Thomas Mahut, Brandon Toledano and Evan Teboul \nCopyright (c) 2023
+## Created by Vinisha Manek, Thomas Mahut, Brandon Toledano and Evan Teboul - Copyright (c) 2023
 
 BeatBounce is a Java program that plays songs to match your heart rate or step pace. The user's pace, measured in BPM, can be obtained using input from a smartWatch's heart rate monitor or measured step pace. For the purpose of this program, this is instead simulated by clicks on a mouse or pressing a key at a specific rate. 
 
