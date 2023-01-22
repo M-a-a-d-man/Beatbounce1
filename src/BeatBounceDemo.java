@@ -1,17 +1,11 @@
 import java.io.IOException;
-
 //import javax.sound.sampled.FloatControl;
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.UnsupportedAudioFileException;
 
 public class BeatBounceDemo {
-	
 	final static int fresh4 = 4; // Rate at which songs fade
-	
 	public static void main(String[] args) throws UnsupportedAudioFileException, IOException, LineUnavailableException, InterruptedException {
-		
-
-		
 		createSongs();
 		new GUI();
 		Song currentSong = Song.findSong("Super Rich Kids - Frank Ocean, Earl Sweatshirt"); // Default start
@@ -28,9 +22,6 @@ public class BeatBounceDemo {
 		audioPlayer0.play();
 		audioPlayer1 = new Player1();
 		audioPlayer1.stop();
-		
-		
-		
 		
 		while (true) {
 			Thread.sleep(6000);
@@ -71,9 +62,6 @@ public class BeatBounceDemo {
 //			currentSongBPM = currentSong.getBpm();
 //			audioPlayer0.play();
 		}
-		
-		
-		
 	}
 	
 	public static void createSongs() {
@@ -92,11 +80,8 @@ public class BeatBounceDemo {
 		new Song("Mr. Blue Sky - Electric Light Orchestra",        "src/assets/blue_178_10000000.wav", 178, 10000000);
 		new Song("Love Me Like You Do - Ellie Goulding",           "src/assets/loveme_190_122000000.wav", 190, 122000000);
 		new Song("A Worse Today - Infanticide",                    "src/assets/aWorseDay_201_29440000.wav", 201, 29440000);
-		
-		
 		//new Song("Mr. Brightside - The Killers", "src/brightside_148_24000000.wav", 148, 10000000);
 		//new Song("Antisocial - Ed Sheeran, Travis Scott", "src/antisocial_150_0.wav", 150, 0);
-		
 	}
 	
 	public static void transition01(Player0 player0, Player1 player1) throws InterruptedException, UnsupportedAudioFileException, IOException, LineUnavailableException {
@@ -121,5 +106,4 @@ public class BeatBounceDemo {
 	    player1.stop();
         System.out.println("Player1 Stopped");
 	}
-	
 }
