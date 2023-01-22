@@ -80,7 +80,8 @@ public class BeatBounceDemo {
 		new Song("Super Rich Kids - Frank Ocean, Earl Sweatshirt", "src/assets/richkids_60_8000000.wav", 60, 8000000);
 		new Song("Don't Worry Be Happy - Bobby McFerrin",          "src/assets/DontWorryBeHappy_69_29440000.wav", 69, 29440000);
 		new Song("Beautiful Girls - Sean Kingston",                "src/assets/beautifulgirls_87_0.wav", 87, 0);
-		new Song("Dancing Queen - Abba",                           "src/assets/dancing.wav", 101, 3000000);
+		new Song("Doo Wop (That Thing) - Lauryn Hill",             "src/assets/doowop_200_0.wav", 100, 0);
+		//new Song("Dancing Queen - Abba",                           "src/assets/dancing.wav", 101, 3000000);
 		new Song("Call Me Maybe - Carly Rae Jepsen",               "src/assets/callmemaybe_120_21000000.wav", 120, 21000000);
 		new Song("Harder, Better, Faster, Stronger - Daft Punk",   "src/assets/harder_123_21000000.wav", 123, 21000000);
 		new Song("I Gotta Feeling - Black Eyed Peas",              "src/assets/igottafeeling_128_29000000.wav", 128, 29000000);
@@ -90,7 +91,7 @@ public class BeatBounceDemo {
 		new Song("Bad Blood - Taylor Swift",                       "src/assets/badblood_170_12000000.wav", 170, 12000000);
 		new Song("Mr. Blue Sky - Electric Light Orchestra",        "src/assets/blue_178_10000000.wav", 178, 10000000);
 		new Song("Love Me Like You Do - Ellie Goulding",           "src/assets/loveme_190_122000000.wav", 190, 122000000);
-		new Song("Doo Wop (That Thing) - Lauryn Hill",             "src/assets/doowop_200_0.wav", 200, 0);
+		
 		
 		//new Song("Mr. Brightside - The Killers", "src/brightside_148_24000000.wav", 148, 10000000);
 		//new Song("Antisocial - Ed Sheeran, Travis Scott", "src/antisocial_150_0.wav", 150, 0);
