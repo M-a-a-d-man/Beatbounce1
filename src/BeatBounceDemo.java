@@ -78,6 +78,7 @@ public class BeatBounceDemo {
 	
 	public static void createSongs() {
 		new Song("Super Rich Kids - Frank Ocean, Earl Sweatshirt", "src/assets/richkids_60_8000000.wav", 60, 8000000);
+		new Song("Don't Worry Be Happy - Bobby McFerrin",          "src/assets/DontWorryBeHappy_69_29440000.wav", 69, 29440000);
 		new Song("Beautiful Girls - Sean Kingston",                "src/assets/beautifulgirls_87_0.wav", 87, 0);
 		new Song("Dancing Queen - Abba",                           "src/assets/dancing.wav", 101, 3000000);
 		new Song("Call Me Maybe - Carly Rae Jepsen",               "src/assets/callmemaybe_120_21000000.wav", 120, 21000000);
