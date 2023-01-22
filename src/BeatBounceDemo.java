@@ -91,6 +91,7 @@ public class BeatBounceDemo {
 		new Song("Bad Blood - Taylor Swift",                       "src/assets/badblood_170_12000000.wav", 170, 12000000);
 		new Song("Mr. Blue Sky - Electric Light Orchestra",        "src/assets/blue_178_10000000.wav", 178, 10000000);
 		new Song("Love Me Like You Do - Ellie Goulding",           "src/assets/loveme_190_122000000.wav", 190, 122000000);
+		new Song("A Worse Today - Infanticide",                    "src/assets/aWorseDay_201_29440000.wav", 201, 29440000);
 		
 		
 		//new Song("Mr. Brightside - The Killers", "src/brightside_148_24000000.wav", 148, 10000000);
