@@ -29,7 +29,7 @@ public class BeatBounceDemo {
 				currentTap = GUI.getBPM();
 				System.out.println("Current BPM: " + currentTap);
 				Thread.sleep(1000);
-				if((Math.abs(currentSongBPM - currentTap)) > 10 && currentSong != Song.findSong(currentTap)) {
+				if((Math.abs(currentSongBPM - currentTap)) > 8 && currentSong != Song.findSong(currentTap)) {
 					break;
 				}
 			}
