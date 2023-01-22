@@ -85,6 +85,7 @@ public class BeatBounceDemo {
 		new Song("Harder, Better, Faster, Stronger - Daft Punk",   "src/assets/harder_123_21000000.wav", 123, 21000000);
 		new Song("I Gotta Feeling - Black Eyed Peas",              "src/assets/igottafeeling_128_29000000.wav", 128, 29000000);
 		new Song("Beat It - Michael Jackson",                      "src/assets/beatit_139_24000000.wav", 139, 24000000);
+		new Song("Holding Out for a Hero - Bonnie Tyler",          "src/assets/HoldingOutForAHero_150_58130000.wav", 150, 58130000);
 		new Song("Hey Ya! - OutKast",                              "src/assets/heyya_160_0.wav", 160, 0);
 		new Song("Bad Blood - Taylor Swift",                       "src/assets/badblood_170_12000000.wav", 170, 12000000);
 		new Song("Mr. Blue Sky - Electric Light Orchestra",        "src/assets/blue_178_10000000.wav", 178, 10000000);
